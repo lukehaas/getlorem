@@ -1,5 +1,7 @@
 # [getlorem](https://getlorem.com)
 
+Generate passages of Lorem Ipsum text, suitable for use as placeholder text in documents.
+
 This library can be used as a Node.js module as well as a being included as a standalone script on a page via Require.js or in a script tag.
 
 For a live demo see [getlorem.com](https://getlorem.com).
