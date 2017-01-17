@@ -101,3 +101,12 @@ Refine the output with the following arguments.
 | —copy    | Copy to clipboard                        |
 | —tags    | HTML tags to wrap the units              |
 | —swl     | Start with 'lorem ipsum...'              |
+
+
+##As a jQuery plugin
+
+This library can also be used as a jQuery plugin. Placing the attribute `data-getlorem` on any container element will populate that element with the assigned number of Lorem Ipsum words.
+
+```
+<div data-getlorem="50"></div>
+```

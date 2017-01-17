@@ -1,0 +1,25 @@
+{
+  "name": "getlorem",
+  "description": "Generate passages of Lorem Ipsum text, suitable for use as placeholder text in documents.",
+  "main": "./lib/getlorem.js",
+  "authors": [
+    "Luke Haas"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "lorem",
+    "ipsum",
+    "text",
+    "dummy",
+    "placeholder",
+    "filler"
+  ],
+  "homepage": "https://github.com/lukehaas/getlorem",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
