@@ -1,8 +1,8 @@
-#getlorem
+# [getlorem](https://getlorem.com)
 
-This library can be used as a Node module as well as a being included as a standalone script on a page via Require.js or in a script tag.
+This library can be used as a Node.js module as well as a being included as a standalone script on a page via Require.js or in a script tag.
 
-
+For a live demo see [getlorem.com](https://getlorem.com).
 
 ##Installing the module (Node.js)
 
@@ -99,4 +99,3 @@ Refine the output with the following arguments.
 | —copy    | Copy to clipboard                        |
 | —tags    | HTML tags to wrap the units              |
 | —swl     | Start with 'lorem ipsum...'              |
-
