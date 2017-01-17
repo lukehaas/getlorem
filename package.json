@@ -1,0 +1,32 @@
+{
+  "name": "getlorem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/getlorem.js",
+  "directories": {
+    "test": "test"
+  },
+  "bin": {
+    "getlorem": "bin/getlorem.bin.js"
+  },
+  "scripts": {
+    "test": "nodeunit test"
+  },
+  "author": "Luke Haas",
+  "license": "MIT",
+  "devDependencies": {
+    "nodeunit": "^0.10.2",
+    "tap": "^8.0.1"
+  },
+  "dependencies": {
+    "optimist": "^0.6.1"
+  },
+  "keywords": [
+    "lorem",
+    "ipsum",
+    "text",
+    "dummy",
+    "placeholder",
+    "filler"
+  ]
+}
