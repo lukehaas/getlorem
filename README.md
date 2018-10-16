@@ -6,7 +6,7 @@ This library can be used as a Node.js module as well as a being included as a st
 
 For a live demo see [getlorem.com](https://getlorem.com).
 
-##Installing the module (Node.js)
+## Installing the module (Node.js)
 
 ```
 npm install getlorem
@@ -14,7 +14,7 @@ npm install getlorem
 
 Require getlorem and use it to generate a passage of lorem ipsum text.
 
-```
+```javascript
 var getlorem = require('getlorem');
 
 var output = getlorem.paragraphs(5);
@@ -22,45 +22,45 @@ var output = getlorem.paragraphs(5);
 
 
 
-##Usage
+## Usage
 
-###Generating words
+### Generating words
 
-```
+```javascript
 getlorem.words(5);
 ```
 
-###Generating sentences
+### Generating sentences
 
-```
+```javascript
 getlorem.sentences(5);
 ```
 
-###Generating paragraphs
+### Generating paragraphs
 
-```
+```javascript
 getlorem.paragraphs(5);
 ```
 
-###Generating lists
+### Generating lists
 
-```
+```javascript
 getlorem.lists(5);
 ```
 
-###Generating bytes
+### Generating bytes
 
-```
+```javascript
 getlorem.bytes(5);
 ```
 
 
 
-##Wrapping text with HTML tags
+## Wrapping text with HTML tags
 
 If you would like to wrap the generated text with a tag, pass it as the second parameter.
 
-```
+```javascript
 getlorem.paragraphs(5,'p');
 
 // Generates: <p>Lorem ipsum...</p><p>...</p><p>...</p>
@@ -72,13 +72,13 @@ getlorem.paragraphs(5,'p');
 
 To generate a passage of text that begins with the opening 'Lorem ipsum…' sentence. Set the third parameter to true.
 
-```
+```javascript
 getlorem.paragraphs(4,'p',true);
 ```
 
 
 
-##Using the CLI (Node.js)
+## Using the CLI (Node.js)
 
 getlorem can be used from the command line. To do this, install it globally.
 
@@ -103,10 +103,10 @@ Refine the output with the following arguments.
 | —swl     | Start with 'lorem ipsum...'              |
 
 
-##As a jQuery plugin
+## As a jQuery plugin
 
 This library can also be used as a jQuery plugin. Placing the attribute `data-getlorem` on any container element will populate that element with the assigned number of Lorem Ipsum words.
 
-```
+```html
 <div data-getlorem="50"></div>
 ```
