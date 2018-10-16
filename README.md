@@ -14,7 +14,7 @@ npm install getlorem
 
 Require getlorem and use it to generate a passage of lorem ipsum text.
 
-```
+```javascript
 var getlorem = require('getlorem');
 
 var output = getlorem.paragraphs(5);
@@ -26,31 +26,31 @@ var output = getlorem.paragraphs(5);
 
 ### Generating words
 
-```
+```javascript
 getlorem.words(5);
 ```
 
 ### Generating sentences
 
-```
+```javascript
 getlorem.sentences(5);
 ```
 
 ### Generating paragraphs
 
-```
+```javascript
 getlorem.paragraphs(5);
 ```
 
 ### Generating lists
 
-```
+```javascript
 getlorem.lists(5);
 ```
 
 ### Generating bytes
 
-```
+```javascript
 getlorem.bytes(5);
 ```
 
@@ -60,7 +60,7 @@ getlorem.bytes(5);
 
 If you would like to wrap the generated text with a tag, pass it as the second parameter.
 
-```
+```javascript
 getlorem.paragraphs(5,'p');
 
 // Generates: <p>Lorem ipsum...</p><p>...</p><p>...</p>
@@ -72,7 +72,7 @@ getlorem.paragraphs(5,'p');
 
 To generate a passage of text that begins with the opening 'Lorem ipsum…' sentence. Set the third parameter to true.
 
-```
+```javascript
 getlorem.paragraphs(4,'p',true);
 ```
 
@@ -107,6 +107,6 @@ Refine the output with the following arguments.
 
 This library can also be used as a jQuery plugin. Placing the attribute `data-getlorem` on any container element will populate that element with the assigned number of Lorem Ipsum words.
 
-```
+```html
 <div data-getlorem="50"></div>
 ```
